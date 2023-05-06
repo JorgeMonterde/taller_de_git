@@ -45,7 +45,13 @@ body {
 }
 
 article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
   max-width: 7rem;
-  padding-bottom: 1rem;
+  gap: 1rem;
+}
+.iconify {
+  font-size: 1.6rem;
 }
